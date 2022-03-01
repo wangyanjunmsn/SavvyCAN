@@ -20,19 +20,6 @@ QMAKE_INFO_PLIST = Info.plist.template
 ICON = icons/SavvyIcon.icns
 
 SOURCES += main.cpp\
-    connections/mqtt_bus.cpp \
-    mqtt/qmqtt_client.cpp \
-    mqtt/qmqtt_client_p.cpp \
-    mqtt/qmqtt_frame.cpp \
-    mqtt/qmqtt_message.cpp \
-    mqtt/qmqtt_network.cpp \
-    mqtt/qmqtt_router.cpp \
-    mqtt/qmqtt_routesubscription.cpp \
-    mqtt/qmqtt_socket.cpp \
-    mqtt/qmqtt_ssl_socket.cpp \
-    mqtt/qmqtt_timer.cpp \
-    mqtt/qmqtt_websocket.cpp \
-    mqtt/qmqtt_websocketiodevice.cpp \
     qcpaxistickerhex.cpp \
     re/dbccomparatorwindow.cpp \
     mainwindow.cpp \
@@ -99,26 +86,6 @@ HEADERS  += mainwindow.h \
     can_structs.h \
     canframemodel.h \
     connections/socketcand.h \
-    connections/mqtt_bus.h \
-    mqtt/qmqtt.h \
-    mqtt/qmqtt_client.h \
-    mqtt/qmqtt_client_p.h \
-    mqtt/qmqtt_frame.h \
-    mqtt/qmqtt_global.h \
-    mqtt/qmqtt_message.h \
-    mqtt/qmqtt_message_p.h \
-    mqtt/qmqtt_network_p.h \
-    mqtt/qmqtt_networkinterface.h \
-    mqtt/qmqtt_routedmessage.h \
-    mqtt/qmqtt_router.h \
-    mqtt/qmqtt_routesubscription.h \
-    mqtt/qmqtt_socket_p.h \
-    mqtt/qmqtt_socketinterface.h \
-    mqtt/qmqtt_ssl_socket_p.h \
-    mqtt/qmqtt_timer_p.h \
-    mqtt/qmqtt_timerinterface.h \
-    mqtt/qmqtt_websocket_p.h \
-    mqtt/qmqtt_websocketiodevice_p.h \
     qcpaxistickerhex.h \
     re/dbccomparatorwindow.h \
     simplecrypt.h \

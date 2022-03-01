@@ -18,8 +18,6 @@ CANConnection* CanConFactory::create(type pType, QString pPortName, QString pDri
         return new GVRetSerial(pPortName, true);  //it's a special case of GVRET connected over TCP/IP so it uses the same class
     case KAYAK:
         return new SocketCANd(pPortName);
-    case MQTT:
-        return new MQTT_BUS(pPortName);
     default: {}
     }
 
